@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const Api = createApi({
     reducerPath: "Api",
     baseQuery: fetchBaseQuery({
-        baseUrl: "https://amazon-clone-deploy.herokuapp.com/",
+        baseUrl: "https://amazone-clone-tfym.onrender.com/",
     }),
     tagTypes: ["Product", "Department", "Category", "Cart", "Review", "Order"],
 
